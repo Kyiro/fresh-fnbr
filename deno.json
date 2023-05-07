@@ -1,0 +1,19 @@
+{
+    "tasks": {
+        "start": "deno run -A --watch=static/,routes/ dev.ts"
+    },
+    "fmt": {
+        "options": {
+            "useTabs": false,
+            "indentWidth": 4,
+            "lineWidth": 100,
+            "singleQuote": false,
+            "semiColons": true
+        }
+    },
+    "importMap": "./import_map.json",
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "jsxImportSource": "preact"
+    }
+}
